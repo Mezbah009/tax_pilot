@@ -1,0 +1,33 @@
+# Ignore specific files and directories
+.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/public/uploads
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Ignore the uploads folder
+/public/uploads/
+
+# Allow all other files and directories in public
+!public/
+
+# Specifically allow front-assets and its contents
+!public/front-assets/
+!public/front-assets/css/
+!public/front-assets/css/*
+!public/front-assets/vendor
