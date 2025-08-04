@@ -26,8 +26,8 @@ use App\Models\Practice;
 use App\Models\User;
 
 class FrontController extends Controller
-
 {
+
 
     public function index()
     {

@@ -13,7 +13,7 @@
     <title>TaxPilot - Tax Advisor & Consulting</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+    <link rel="icon" type="image/x-icon" href="{{ asset('front-assets/assets/img/logo/favicon.png') }}">
 
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('front-assets/assets/css/bootstrap.min.css') }}">
@@ -127,7 +127,7 @@
                         </ul>
                         <div class="nav-right">
                             <div class="search-btn">
-                                <button type="button" class="nav-right-link search-box-outer"><i class="far fa-search"></i></button>
+                                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
                             </div>
                             <div class="nav-right-btn">
                                 <a href="#" class="theme-btn">Get Started<i class="fas fa-arrow-right"></i></a>
