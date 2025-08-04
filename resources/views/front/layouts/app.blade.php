@@ -44,7 +44,7 @@
         <div class="main-navigation">
             <nav class="navbar navbar-expand-lg">
                 <div class="container position-relative">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="{{ route('front.home') }}">
                         <img src="{{ asset('front-assets/assets/img/logo/logo-light.png') }}" class="logo-display" alt="logo">
                         <img src="{{ asset('front-assets/assets/img/logo/logo.png') }}" class="logo-scrolled" alt="logo">
                     </a>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('front.home') }}">Home</a></li>
                             {{-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="index-3.html#" data-bs-toggle="dropdown">Home</a>
                                 <ul class="dropdown-menu fade-down">
