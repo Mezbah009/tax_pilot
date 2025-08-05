@@ -16,7 +16,13 @@
 <!-- Main content -->
 <section class="content">
     <!-- Default box -->
-    <div class="container-fluid">
+
+
+    <h1 class="text-center">Welcome to the Admin Dashboard</h1>
+    <p class="text-center">This is the admin dashboard where you can manage your application.</p>
+    <p class="text-center">Use the navigation menu to access different sections of the admin panel.</p>
+    {{-- <p class="text-center">For more information, refer to the documentation or contact support.</p> --}}
+    {{-- <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-6">
                 <div class="small-box card">
@@ -93,9 +99,9 @@
                     <a href="javascript:void(0);" class="small-box-footer">&nbsp;</a>
                 </div>
             </div>
-        
+
         </div>
-    </div>
+    </div> --}}
     <!-- /.card -->
 </section>
 @endsection

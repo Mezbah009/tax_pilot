@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Musa & Associates :: Admin Login</title>
+    <title>TaxPilot:: Admin Login</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -17,83 +17,85 @@
     <link rel="stylesheet" href="{{ asset('admin-assets/css/adminlte.min.css') }}">
 
     <!-- Custom CSS -->
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: 'Source Sans Pro', sans-serif;
-        }
+<!-- Custom CSS -->
+<style>
+    body {
+        background-color: #f4f6f9;
+        color: #343a40;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
 
-        .login-box {
-            width: 400px;
-            margin: 5% auto;
-        }
+    .login-box {
+        width: 400px;
+        margin: 5% auto;
+    }
 
-        .card {
-            background-color: #1c1c1c;
-            border: 1px solid #333;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-        }
+    .card {
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 123, 255, 0.1);
+    }
 
-        .card-header {
-            background-color: transparent;
-            border-bottom: 1px solid #333;
-        }
+    .card-header {
+        background-color: transparent;
+        border-bottom: 1px solid #dee2e6;
+    }
 
-        .card-header a {
-            color: #B69D74;
-            font-weight: bold;
-        }
+    .card-header a {
+        color: #007bff;
+        font-weight: bold;
+    }
 
-        .login-box-msg {
-            color: #aaa;
-        }
+    .login-box-msg {
+        color: #6c757d;
+    }
 
-        .form-control {
-            background-color: #2a2a2a;
-            border: 1px solid #444;
-            color: #fff;
-        }
+    .form-control {
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        color: #495057;
+    }
 
-        .form-control:focus {
-            background-color: #2a2a2a;
-            color: #fff;
-            border-color: #B69D74;
-            box-shadow: none;
-        }
+    .form-control:focus {
+        background-color: #fff;
+        color: #495057;
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
 
-        .input-group-text {
-            background-color: #2a2a2a;
-            border: 1px solid #444;
-            color: #B69D74;
-        }
+    .input-group-text {
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        color: #007bff;
+    }
 
-        .btn-primary {
-            background-color: #B69D74;
-            border-color: #B69D74;
-        }
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
 
-        .btn-primary:hover {
-            background-color: #B69D74;
-            border-color: #B69D74;
-        }
+    .btn-primary:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
 
-        .invalid-feedback {
-            color: #ff6b6b;
-            font-size: 0.875rem;
-            margin-top: -10px;
-            margin-bottom: 10px;
-        }
+    .invalid-feedback {
+        color: #dc3545;
+        font-size: 0.875rem;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
 
-        a {
-            color: #B69D74;
-        }
+    a {
+        color: #007bff;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
 </head>
 
 <body class="hold-transition login-page">
@@ -102,7 +104,7 @@
         <div class="card card-outline card-primary">
 
             <div class="card-header text-center">
-                <a href="#" class="h3">Musa & Associates Admin Panel</a>
+                <a href="#" class="h3">TaxPilot Admin Panel</a>
             </div>
             <div class="card-body">
                 <p class="login-box-msg">Sign in to start your session</p>

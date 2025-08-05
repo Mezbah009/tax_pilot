@@ -29,49 +29,52 @@ class FrontController extends Controller
 {
 
 
-    public function index()
-    {
-
-        return view('front.home');
-    }
-
-
     // public function index()
     // {
+
     //     $home_first_section = HomeFirstSection::all();
     //     $data['home_first_section'] = $home_first_section;
 
-    //     $home_second_section = HomeSecondSection::all();
-    //     $data['home_second_section'] = $home_second_section;
-
-    //     $home_services_section = HomeServicesSection::all();
-    //     $data['home_services_section'] = $home_services_section;
-
-    //     $teamMembers = User::where('role', '!=', 2)->take(4)->get();
-    //     $data['teamMembers'] = $teamMembers;
-
-    //     $caseStudy = CaseStudy::latest()->take(3)->get();
-    //     $data['caseStudy'] = $caseStudy;
-
-    //     $practice = Practice::orderBy('id', 'asc')->take(6)->get();
-    //     $data['practice'] = $practice;
-
-    //     $numbers = Number::latest()->take(1)->get();
-    //     $data['numbers'] = $numbers;
-
-
-    //     $testimonials = Testimonial::all();
-    //     $data['testimonials'] = $testimonials;
-
-    //     $blogs = Blog::with(['author', 'categories'])
-    //     ->where('is_published', true)
-    //     ->orderByDesc('published_at')
-    //     ->take(6)
-    //     ->get();
-    //     $data['blogs'] = $blogs;
-
     //     return view('front.home', $data);
     // }
+
+
+    public function index()
+    {
+        $home_first_section = HomeFirstSection::all();
+        $data['home_first_section'] = $home_first_section;
+
+        $home_second_section = HomeSecondSection::all();
+        $data['home_second_section'] = $home_second_section;
+
+        $home_services_section = HomeServicesSection::all();
+        $data['home_services_section'] = $home_services_section;
+
+        $teamMembers = User::where('role', '!=', 2)->take(4)->get();
+        $data['teamMembers'] = $teamMembers;
+
+        $caseStudy = CaseStudy::latest()->take(3)->get();
+        $data['caseStudy'] = $caseStudy;
+
+        $practice = Practice::orderBy('id', 'asc')->take(6)->get();
+        $data['practice'] = $practice;
+
+        $numbers = Number::latest()->take(1)->get();
+        $data['numbers'] = $numbers;
+
+
+        $testimonials = Testimonial::all();
+        $data['testimonials'] = $testimonials;
+
+        $blogs = Blog::with(['author', 'categories'])
+        ->where('is_published', true)
+        ->orderByDesc('published_at')
+        ->take(6)
+        ->get();
+        $data['blogs'] = $blogs;
+
+        return view('front.home', $data);
+    }
 
     public function about()
     {

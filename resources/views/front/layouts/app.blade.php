@@ -45,12 +45,15 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container position-relative">
                     <a class="navbar-brand" href="{{ route('front.home') }}">
-                        <img src="{{ asset('front-assets/assets/img/logo/logo-light.png') }}" class="logo-display" alt="logo">
-                        <img src="{{ asset('front-assets/assets/img/logo/logo.png') }}" class="logo-scrolled" alt="logo">
+                        <img src="{{ asset('front-assets/assets/img/logo/logo-light.png') }}" class="logo-display"
+                            alt="logo">
+                        <img src="{{ asset('front-assets/assets/img/logo/logo.png') }}" class="logo-scrolled"
+                            alt="logo">
                     </a>
                     <div class="mobile-menu-right">
                         <div class="search-btn">
-                            <button type="button" class="nav-right-link search-box-outer"><i class="far fa-search"></i></button>
+                            <button type="button" class="nav-right-link search-box-outer"><i
+                                    class="far fa-search"></i></button>
                         </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,15 +74,16 @@
                                 </ul>
                             </li> --}}
                             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                            {{-- <li class="nav-item dropdown">
                                 <a class="nav-link" href="#">Services</a>
                                 <ul class="dropdown-menu fade-down">
                                     <li><a class="dropdown-item" href="service.html">Services One</a></li>
                                     <li><a class="dropdown-item" href="service-2.html">Services Two</a></li>
                                     <li><a class="dropdown-item" href="service-single.html">Service Single</a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item dropdown">
+                            </li> --}}
+                            {{-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
                                 <ul class="dropdown-menu fade-down">
                                     <li><a class="dropdown-item" href="#">About Us</a></li>
@@ -108,29 +112,33 @@
                                     <li><a class="dropdown-item" href="#">Faq's</a></li>
                                     <li><a class="dropdown-item" href="#">Testimonials</a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item dropdown">
+                            </li> --}}
+
+                            <li class="nav-item"><a class="nav-link" href="#">Case Study</a></li>
+                            {{-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Case Study</a>
                                 <ul class="dropdown-menu fade-down">
                                     <li><a class="dropdown-item" href="case-study.html">Case Study</a></li>
                                     <li><a class="dropdown-item" href="case-study-single.html">Case Study Single</a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item dropdown">
+                            </li> --}}
+
+                            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                            {{-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="l#" data-bs-toggle="dropdown">Blog</a>
                                 <ul class="dropdown-menu fade-down">
                                     <li><a class="dropdown-item" href="#">Blog</a></li>
                                     <li><a class="dropdown-item" href="#">Blog Single</a></li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                         </ul>
                         <div class="nav-right">
                             <div class="search-btn">
-                                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://taxpilotlogin.opuserp.com/tax/login">Login</a></li>
                             </div>
                             <div class="nav-right-btn">
-                                <a href="#" class="theme-btn">Get Started<i class="fas fa-arrow-right"></i></a>
+                                <a href="https://taxpilotlogin.opuserp.com/tax/register-personal" class="theme-btn">Get Started<i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -162,7 +170,7 @@
 
     </main>
 
-       <!-- footer area -->
+    <!-- footer area -->
     <footer class="footer-area footer-bg">
         <div class="footer-widget">
             <div class="container">
@@ -171,10 +179,12 @@
                         <div class="col-md-6 col-lg-5">
                             <div class="footer-widget-box about-us">
                                 <a href="index-3.html#" class="footer-logo">
-                                    <img src="{{ asset('front-assets/assets/img/logo/logo-light.png') }}" alt="">
+                                    <img src="{{ asset('front-assets/assets/img/logo/logo-light.png') }}"
+                                        alt="">
                                 </a>
                                 <p class="mb-4">
-                                    We are many variations of passages available but the majority have suffered alteration
+                                    We are many variations of passages available but the majority have suffered
+                                    alteration
                                     in some form by injected humour words believable.
                                 </p>
                                 <div class="footer-newsletter">
@@ -199,9 +209,12 @@
                                     <li><a href="about.html"><i class="far fa-arrow-right"></i>About Us</a></li>
                                     <li><a href="blog.html"><i class="far fa-arrow-right"></i>Update News</a></li>
                                     <li><a href="contact.html"><i class="far fa-arrow-right"></i>Contact Us</a></li>
-                                    <li><a href="testimonial.html"><i class="far fa-arrow-right"></i>Testimonials</a></li>
-                                    <li><a href="terms.html"><i class="far fa-arrow-right"></i>Terms Of Service</a></li>
-                                    <li><a href="privacy.html"><i class="far fa-arrow-right"></i>Privacy policy</a></li>
+                                    <li><a href="testimonial.html"><i class="far fa-arrow-right"></i>Testimonials</a>
+                                    </li>
+                                    <li><a href="terms.html"><i class="far fa-arrow-right"></i>Terms Of Service</a>
+                                    </li>
+                                    <li><a href="privacy.html"><i class="far fa-arrow-right"></i>Privacy policy</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -211,9 +224,12 @@
                                 <ul class="footer-list">
                                     <li><a href="service.html"><i class="far fa-arrow-right"></i>Tax Planning</a></li>
                                     <li><a href="service.html"><i class="far fa-arrow-right"></i>Personal Tax</a></li>
-                                    <li><a href="service.html"><i class="far fa-arrow-right"></i>Insurance Tax</a></li>
-                                    <li><a href="service.html"><i class="far fa-arrow-right"></i>Tax Audit Support</a></li>
-                                    <li><a href="service.html"><i class="far fa-arrow-right"></i>Corporate Tax</a></li>
+                                    <li><a href="service.html"><i class="far fa-arrow-right"></i>Insurance Tax</a>
+                                    </li>
+                                    <li><a href="service.html"><i class="far fa-arrow-right"></i>Tax Audit Support</a>
+                                    </li>
+                                    <li><a href="service.html"><i class="far fa-arrow-right"></i>Corporate Tax</a>
+                                    </li>
                                     <li><a href="service.html"><i class="far fa-arrow-right"></i>Tax Advisory</a></li>
                                 </ul>
                             </div>
@@ -246,7 +262,10 @@
                                         </div>
                                         <div class="content">
                                             <h6>Mail Us</h6>
-                                            <a href="https://live.themewild.com/cdn-cgi/l/email-protection#4b22252d240b2e332a263b272e65282426"><span class="__cf_email__" data-cfemail="b6dfd8d0d9f6d3ced7dbc6dad398d5d9db">[email&#160;protected]</span></a>
+                                            <a
+                                                href="https://live.themewild.com/cdn-cgi/l/email-protection#4b22252d240b2e332a263b272e65282426"><span
+                                                    class="__cf_email__"
+                                                    data-cfemail="b6dfd8d0d9f6d3ced7dbc6dad398d5d9db">[email&#160;protected]</span></a>
                                         </div>
                                     </li>
                                 </ul>
@@ -261,7 +280,8 @@
                 <div class="row">
                     <div class="col-md-6 align-self-center">
                         <p class="copyright-text">
-                            &copy; Copyright <span id="date"></span> <a href="index-3.html#"> Taxrio </a> All Rights Reserved.
+                            &copy; Copyright <span id="date"></span> <a href="index-3.html#"> TaxPilot </a> All
+                            Rights Reserved.
                         </p>
                     </div>
                     <div class="col-md-6 align-self-center">
@@ -285,7 +305,8 @@
 
 
     <!-- js -->
-    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{ asset('front-assets/assets/js/jquery-3.7.1.min.js') }}"></script>
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="{{ asset('front-assets/assets/js/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ asset('front-assets/assets/js/modernizr.min.js') }}"></script>
     <script src="{{ asset('front-assets/assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('front-assets/assets/js/imagesloaded.pkgd.min.js') }}"></script>
